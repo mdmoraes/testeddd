@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaContato", "AgendaContato\AgendaContato.csproj", "{1A909AB8-DBED-4BBD-BB4A-271697A71303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{96DABB3E-F85D-4016-B57A-0395D104D3D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{749EF62D-DA4D-4A34-8363-EBC46E04DD0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{85123FDB-0DD9-4C93-9774-7BFC46D0494A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{BD73F3BF-1D9C-4F52-89FC-5ED278121599}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C2815913-4920-436F-B365-32B17B23F7FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaContato.Application", "AgendaContato.Application\AgendaContato.Application.csproj", "{7322D5AD-3D9B-475D-89C8-CE79C5A428C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{FF8F7DFF-6FE3-4184-AD4F-2B3C60D7FB28}"
+	ProjectSection(SolutionItems) = preProject
+		IAppServiceBase.cs = IAppServiceBase.cs
+		IContatoAppService.cs = IContatoAppService.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaContato.Domain", "AgendaContato.Domain\AgendaContato.Domain.csproj", "{361D1444-84B9-4BE8-9A49-73083A1C6470}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaDados.Infra", "AgendaDados.Infra\AgendaDados.Infra.csproj", "{9F4F1BAF-9BF3-4C97-9605-2BBF042F336D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A909AB8-DBED-4BBD-BB4A-271697A71303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A909AB8-DBED-4BBD-BB4A-271697A71303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A909AB8-DBED-4BBD-BB4A-271697A71303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A909AB8-DBED-4BBD-BB4A-271697A71303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7322D5AD-3D9B-475D-89C8-CE79C5A428C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7322D5AD-3D9B-475D-89C8-CE79C5A428C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7322D5AD-3D9B-475D-89C8-CE79C5A428C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7322D5AD-3D9B-475D-89C8-CE79C5A428C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361D1444-84B9-4BE8-9A49-73083A1C6470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361D1444-84B9-4BE8-9A49-73083A1C6470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361D1444-84B9-4BE8-9A49-73083A1C6470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361D1444-84B9-4BE8-9A49-73083A1C6470}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4F1BAF-9BF3-4C97-9605-2BBF042F336D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4F1BAF-9BF3-4C97-9605-2BBF042F336D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4F1BAF-9BF3-4C97-9605-2BBF042F336D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4F1BAF-9BF3-4C97-9605-2BBF042F336D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A909AB8-DBED-4BBD-BB4A-271697A71303} = {96DABB3E-F85D-4016-B57A-0395D104D3D3}
+		{7322D5AD-3D9B-475D-89C8-CE79C5A428C3} = {C2815913-4920-436F-B365-32B17B23F7FC}
+		{FF8F7DFF-6FE3-4184-AD4F-2B3C60D7FB28} = {C2815913-4920-436F-B365-32B17B23F7FC}
+		{361D1444-84B9-4BE8-9A49-73083A1C6470} = {85123FDB-0DD9-4C93-9774-7BFC46D0494A}
+		{9F4F1BAF-9BF3-4C97-9605-2BBF042F336D} = {BD73F3BF-1D9C-4F52-89FC-5ED278121599}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7E870BC-40B2-42DD-B006-229B66192E56}
+	EndGlobalSection
+EndGlobal
